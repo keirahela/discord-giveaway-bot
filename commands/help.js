@@ -18,7 +18,7 @@ exports.run = async (client, message, args) => {
             .addField('👥 Example:', `⌨️ ${prefix}end 892678258946659587\n➡️ Ends the giveaway with the message-ID \`892678258946659587\`.`)
             .addField(`🔍 ${prefix}reroll [message-id]`, 'Message-ID has to be the **ID** of the giveaway message.\n**Not the link!**')
             .addField('👥 Example:', `⌨️ ${prefix}reroll 892678258946659587\n➡️ Selects new winners for the giveaway with the message-ID \`892678258946659587\`.`)
-            .setFooter('Made with 💖 and discord.js by ghaku', client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
+            .setFooter('Made with 💖 and discord.js by ghaku & keirahela', client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
             message.author.send(embed);
             }
         if (!message.guild) {
