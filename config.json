@@ -1,0 +1,6 @@
+{
+	"prefix": "YOUR_BOT_PREFIX_HERE",
+	"token": "YOUR_BOT_TOKEN_HERE",
+	"everyoneMention": true,
+        "hostedBy": true
+}
