@@ -23,7 +23,7 @@ exports.run = async (client, message, args) => {
 
     let giveawayPrize = args.slice(3).join(' ');
     if(!giveawayPrize){
-        return message.channel.send(':boom: Oh, it seems like you didn\'t give me a valid prize!');
+        return message.channel.send(':boom: It seems like you didn\'t give me a valid prize!');
     }
 
     client.giveawaysManager.start(giveawayChannel, {
